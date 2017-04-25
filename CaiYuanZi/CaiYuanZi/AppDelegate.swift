@@ -13,10 +13,9 @@ import CoreData
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
 
+        UITabBar.appearance().tintColor = UIColor(red: 50.0 / 255, green: 232 / 255, blue: 182 / 255, alpha: 1)
         return true
     }
 }
