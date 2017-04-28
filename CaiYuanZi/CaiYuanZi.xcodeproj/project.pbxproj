@@ -17,6 +17,7 @@
 		29C5D4FF1EAF97E6007343C7 /* Order.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29C5D4FE1EAF97E6007343C7 /* Order.storyboard */; };
 		29C5D5021EAF9800007343C7 /* Cart.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29C5D5001EAF9800007343C7 /* Cart.storyboard */; };
 		29C5D5041EAF9811007343C7 /* Mine.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29C5D5031EAF9811007343C7 /* Mine.storyboard */; };
+		3819EAB58C33987C338E52D9 /* Pods_CaiYuanZi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50CA675E1753EEB215F590B9 /* Pods_CaiYuanZi.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,9 @@
 		29C5D4FE1EAF97E6007343C7 /* Order.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Order.storyboard; path = ../../Main/Controller/Order.storyboard; sourceTree = "<group>"; };
 		29C5D5011EAF9800007343C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = CaiYuanZi/Base.lproj/Cart.storyboard; sourceTree = SOURCE_ROOT; };
 		29C5D5031EAF9811007343C7 /* Mine.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Mine.storyboard; path = ../../Main/Controller/Mine.storyboard; sourceTree = "<group>"; };
+		50CA675E1753EEB215F590B9 /* Pods_CaiYuanZi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CaiYuanZi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		61B64790C1E7D4ADEB762DD3 /* Pods-CaiYuanZi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CaiYuanZi.release.xcconfig"; path = "Pods/Target Support Files/Pods-CaiYuanZi/Pods-CaiYuanZi.release.xcconfig"; sourceTree = "<group>"; };
+		FC4FABC4630AA484E53D7536 /* Pods-CaiYuanZi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CaiYuanZi.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CaiYuanZi/Pods-CaiYuanZi.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3819EAB58C33987C338E52D9 /* Pods_CaiYuanZi.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,6 +55,8 @@
 			children = (
 				29C5D4C91EAF8F82007343C7 /* CaiYuanZi */,
 				29C5D4C81EAF8F82007343C7 /* Products */,
+				754553FD7AC700AC1D914074 /* Pods */,
+				E300DD64493E26AA4DB36FEC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -255,6 +262,23 @@
 			path = Tools;
 			sourceTree = "<group>";
 		};
+		754553FD7AC700AC1D914074 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FC4FABC4630AA484E53D7536 /* Pods-CaiYuanZi.debug.xcconfig */,
+				61B64790C1E7D4ADEB762DD3 /* Pods-CaiYuanZi.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E300DD64493E26AA4DB36FEC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				50CA675E1753EEB215F590B9 /* Pods_CaiYuanZi.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -262,9 +286,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 29C5D4DC1EAF8F82007343C7 /* Build configuration list for PBXNativeTarget "CaiYuanZi" */;
 			buildPhases = (
+				8B1360A53F211400F37EEC0F /* [CP] Check Pods Manifest.lock */,
 				29C5D4C31EAF8F82007343C7 /* Sources */,
 				29C5D4C41EAF8F82007343C7 /* Frameworks */,
 				29C5D4C51EAF8F82007343C7 /* Resources */,
+				63F69351926236309B634EBA /* [CP] Embed Pods Frameworks */,
+				77B9380D1816DF0C9D029A54 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -326,6 +353,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		63F69351926236309B634EBA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CaiYuanZi/Pods-CaiYuanZi-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		77B9380D1816DF0C9D029A54 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CaiYuanZi/Pods-CaiYuanZi-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8B1360A53F211400F37EEC0F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		29C5D4C31EAF8F82007343C7 /* Sources */ = {
@@ -474,11 +549,12 @@
 		};
 		29C5D4DD1EAF8F82007343C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC4FABC4630AA484E53D7536 /* Pods-CaiYuanZi.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = VVCSZ7P478;
 				INFOPLIST_FILE = CaiYuanZi/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = hahh.CaiYuanZi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -488,11 +564,12 @@
 		};
 		29C5D4DE1EAF8F82007343C7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61B64790C1E7D4ADEB762DD3 /* Pods-CaiYuanZi.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = VVCSZ7P478;
 				INFOPLIST_FILE = CaiYuanZi/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = hahh.CaiYuanZi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -519,6 +596,7 @@
 				29C5D4DE1EAF8F82007343C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
