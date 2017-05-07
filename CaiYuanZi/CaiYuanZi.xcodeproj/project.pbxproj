@@ -19,6 +19,8 @@
 		29C5D5021EAF9800007343C7 /* Cart.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29C5D5001EAF9800007343C7 /* Cart.storyboard */; };
 		29C5D5041EAF9811007343C7 /* Mine.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29C5D5031EAF9811007343C7 /* Mine.storyboard */; };
 		29E3B6F31EB9515400D690B6 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E3B6F21EB9515400D690B6 /* HomeViewController.swift */; };
+		29E3B6F61EBEB13700D690B6 /* BusinessTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E3B6F41EBEB13700D690B6 /* BusinessTableViewCell.swift */; };
+		29E3B6F71EBEB13700D690B6 /* BusinessTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29E3B6F51EBEB13700D690B6 /* BusinessTableViewCell.xib */; };
 		3819EAB58C33987C338E52D9 /* Pods_CaiYuanZi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50CA675E1753EEB215F590B9 /* Pods_CaiYuanZi.framework */; };
 /* End PBXBuildFile section */
 
@@ -37,6 +39,8 @@
 		29C5D5011EAF9800007343C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = CaiYuanZi/Base.lproj/Cart.storyboard; sourceTree = SOURCE_ROOT; };
 		29C5D5031EAF9811007343C7 /* Mine.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Mine.storyboard; path = ../../Main/Controller/Mine.storyboard; sourceTree = "<group>"; };
 		29E3B6F21EB9515400D690B6 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		29E3B6F41EBEB13700D690B6 /* BusinessTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BusinessTableViewCell.swift; sourceTree = "<group>"; };
+		29E3B6F51EBEB13700D690B6 /* BusinessTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BusinessTableViewCell.xib; sourceTree = "<group>"; };
 		50CA675E1753EEB215F590B9 /* Pods_CaiYuanZi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CaiYuanZi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		61B64790C1E7D4ADEB762DD3 /* Pods-CaiYuanZi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CaiYuanZi.release.xcconfig"; path = "Pods/Target Support Files/Pods-CaiYuanZi/Pods-CaiYuanZi.release.xcconfig"; sourceTree = "<group>"; };
 		FC4FABC4630AA484E53D7536 /* Pods-CaiYuanZi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CaiYuanZi.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CaiYuanZi/Pods-CaiYuanZi.debug.xcconfig"; sourceTree = "<group>"; };
@@ -200,6 +204,8 @@
 		29C5D4EB1EAF90EA007343C7 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				29E3B6F41EBEB13700D690B6 /* BusinessTableViewCell.swift */,
+				29E3B6F51EBEB13700D690B6 /* BusinessTableViewCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -357,6 +363,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				29C5D4FF1EAF97E6007343C7 /* Order.storyboard in Resources */,
+				29E3B6F71EBEB13700D690B6 /* BusinessTableViewCell.xib in Resources */,
 				29C5D4D81EAF8F82007343C7 /* LaunchScreen.storyboard in Resources */,
 				29C5D4D51EAF8F82007343C7 /* Assets.xcassets in Resources */,
 				29C5D4D01EAF8F82007343C7 /* Main.storyboard in Resources */,
@@ -426,6 +433,7 @@
 				290330561EB8C84D003678B4 /* UIColor-extension.swift in Sources */,
 				29C5D4D31EAF8F82007343C7 /* CaiYuanZi.xcdatamodeld in Sources */,
 				29C5D4CB1EAF8F82007343C7 /* AppDelegate.swift in Sources */,
+				29E3B6F61EBEB13700D690B6 /* BusinessTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
