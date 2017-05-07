@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		290330561EB8C84D003678B4 /* UIColor-extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290330551EB8C84D003678B4 /* UIColor-extension.swift */; };
 		29C5D4CB1EAF8F82007343C7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C5D4CA1EAF8F82007343C7 /* AppDelegate.swift */; };
 		29C5D4D01EAF8F82007343C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29C5D4CE1EAF8F82007343C7 /* Main.storyboard */; };
 		29C5D4D31EAF8F82007343C7 /* CaiYuanZi.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 29C5D4D11EAF8F82007343C7 /* CaiYuanZi.xcdatamodeld */; };
@@ -17,10 +18,12 @@
 		29C5D4FF1EAF97E6007343C7 /* Order.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29C5D4FE1EAF97E6007343C7 /* Order.storyboard */; };
 		29C5D5021EAF9800007343C7 /* Cart.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29C5D5001EAF9800007343C7 /* Cart.storyboard */; };
 		29C5D5041EAF9811007343C7 /* Mine.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29C5D5031EAF9811007343C7 /* Mine.storyboard */; };
+		29E3B6F31EB9515400D690B6 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29E3B6F21EB9515400D690B6 /* HomeViewController.swift */; };
 		3819EAB58C33987C338E52D9 /* Pods_CaiYuanZi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50CA675E1753EEB215F590B9 /* Pods_CaiYuanZi.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		290330551EB8C84D003678B4 /* UIColor-extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor-extension.swift"; sourceTree = "<group>"; };
 		29C5D4C71EAF8F82007343C7 /* CaiYuanZi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CaiYuanZi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		29C5D4CA1EAF8F82007343C7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		29C5D4CF1EAF8F82007343C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -33,6 +36,7 @@
 		29C5D4FE1EAF97E6007343C7 /* Order.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Order.storyboard; path = ../../Main/Controller/Order.storyboard; sourceTree = "<group>"; };
 		29C5D5011EAF9800007343C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = CaiYuanZi/Base.lproj/Cart.storyboard; sourceTree = SOURCE_ROOT; };
 		29C5D5031EAF9811007343C7 /* Mine.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Mine.storyboard; path = ../../Main/Controller/Mine.storyboard; sourceTree = "<group>"; };
+		29E3B6F21EB9515400D690B6 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		50CA675E1753EEB215F590B9 /* Pods_CaiYuanZi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CaiYuanZi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		61B64790C1E7D4ADEB762DD3 /* Pods-CaiYuanZi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CaiYuanZi.release.xcconfig"; path = "Pods/Target Support Files/Pods-CaiYuanZi/Pods-CaiYuanZi.release.xcconfig"; sourceTree = "<group>"; };
 		FC4FABC4630AA484E53D7536 /* Pods-CaiYuanZi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CaiYuanZi.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CaiYuanZi/Pods-CaiYuanZi.debug.xcconfig"; sourceTree = "<group>"; };
@@ -50,6 +54,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		290330541EB8C84D003678B4 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				290330551EB8C84D003678B4 /* UIColor-extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 		29C5D4BE1EAF8F82007343C7 = {
 			isa = PBXGroup;
 			children = (
@@ -140,6 +152,7 @@
 			isa = PBXGroup;
 			children = (
 				29C5D4FB1EAF97CF007343C7 /* Home.storyboard */,
+				29E3B6F21EB9515400D690B6 /* HomeViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -258,6 +271,7 @@
 		29C5D4F41EAF90EA007343C7 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				290330541EB8C84D003678B4 /* Extension */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -407,7 +421,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29E3B6F31EB9515400D690B6 /* HomeViewController.swift in Sources */,
 				29C5D4FA1EAF952B007343C7 /* MainViewController.swift in Sources */,
+				290330561EB8C84D003678B4 /* UIColor-extension.swift in Sources */,
 				29C5D4D31EAF8F82007343C7 /* CaiYuanZi.xcdatamodeld in Sources */,
 				29C5D4CB1EAF8F82007343C7 /* AppDelegate.swift in Sources */,
 			);

@@ -19,10 +19,15 @@ class MainViewController: UITabBarController {
         addChildVc("Mine")
     }
     
-    // 添加自控制器私有方法
+    // 添加子控制器私有方法
     fileprivate func addChildVc(_ storyName : String) {
     
         let childVc = UIStoryboard(name: storyName, bundle: nil).instantiateInitialViewController()!
         addChildViewController(childVc)
     }
 }
+
+
+
+
+
